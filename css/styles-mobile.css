@@ -1,0 +1,249 @@
+@font-face
+{
+	font-family: Aileron Heavy;
+	src: url('fonts/Aileron-Heavy.otf');
+}
+
+@font-face
+{
+	font-family: Aileron Bold;
+	src: url('fonts/Aileron-Bold.otf');
+}
+
+@font-face
+{
+	font-family: Aileron Regular;
+	src: url('fonts/Aileron-Regular.otf');
+}
+
+html
+{
+	font-size: 100%
+}
+
+h1
+{
+	font-family: Aileron Heavy, Arial, sans-serif;
+	color: #5139ef;
+}
+
+h2, h4
+{
+	font-family: Aileron Regular, Arial, sans-serif;
+	line-height: 2em;
+	color: #595c7c;
+}
+
+h3
+{
+	font-family: Aileron Regular, Arial, sans-serif;
+	line-height: 2em;
+}
+
+.end-heading
+{
+	color: #0f0624;
+	font-family: Aileron Heavy, Arial, sans-serif;
+}
+
+.desc
+{
+	color: #595c7c;
+}
+
+.link
+{
+	font-family: Aileron Heavy, Arial, sans-serif;
+	color: #ff6213;
+}
+
+.caption
+{
+	font-family: Aileron Heavy, Arial, sans-serif;
+	text-align: center;
+	color: #ff6213;
+	text-transform: uppercase;
+}
+
+header
+{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	padding: 1em 1.5em;
+}
+
+header img
+{
+	align-self: center;
+	max-height: 2.5em;
+}
+
+.main-text
+{
+	margin-left: 3em;
+	margin-right: 3em;
+	padding-top: 3em;
+}
+
+.main-text a
+{
+	text-decoration-line: none;
+}
+
+.main-text a h3:hover
+{
+	color: #5139ef;
+}
+
+.main-photo
+{
+	justify-self: end;
+	max-width: 100%
+	height: auto;
+}
+
+.main-photo img
+{
+	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+}
+
+.main-photo img:hover
+{
+	opacity: 0.85;
+    filter: alpha(opacity=50);
+}
+
+.section-1
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: 
+	"main-text" "main-photo"
+	max-height: 90vh;
+	margin-top: 3em;
+	padding-bottom: 5em;
+}
+
+.section-2
+{
+	margin: 5em;
+	justify-self: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90vw;
+}
+
+.section-2 button
+{
+	font-family: Aileron Heavy, Arial, sans-serif;
+	font-size: 1em;
+	background-color: transparent;
+	border: 0.15em solid #ff6213;
+	border-radius: 0.5em;
+	color: #ff6213;
+	padding: 0.8em 0.8em;
+	text-decoration: none;
+}
+
+.section-2 button:hover
+{
+	background-color: #ff6213;
+	color: white;
+}
+
+.gallery-heading
+{
+	padding-top: 5em;
+	margin-left: auto;
+	width: 90vw;
+	margin-bottom: 3em;
+}
+
+.section-3
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	"dog-1" "dog-2"
+	"dog-3" "dog-4"
+	"dog-5" "dog-6"
+	padding-bottom: 5em;
+}
+
+.section-3 figure
+{
+	
+	height: 100%;
+}
+
+.section-3 img
+{
+	width: 100%;
+  	height: 100%;
+ 	object-fit: cover;
+}
+
+.section-3 img:hover
+{
+	opacity: 0.85;
+    filter: alpha(opacity=50);
+}	
+
+.section-4
+{
+	background-color: #f7f7f7;
+}
+
+.credits
+{
+	display: flex;
+	margin-top: 10em;
+	justify-content: space-between;
+	justify-self: center;
+}
+
+.committee
+{
+	padding-top: 5em;
+	margin-left: 2em;
+}
+
+.end-image
+{
+	margin-top: -5em;
+	margin-right: 2em;
+}
+
+.footer
+{
+	display: flex;
+	padding-top: 3em;
+	width: 90vw;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	justify-self: center;
+	align-content: center;
+}
+
+.mini-logo
+{
+	max-height: 1.5em;
+}
+
+.mini-links
+{
+	float: right;
+}
+
+.mini-links img
+{
+	max-height: 2em;
+	margin: 1em;
+}
